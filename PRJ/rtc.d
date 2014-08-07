@@ -1,0 +1,12 @@
+.\rtc.o: ..\..\Libraries\drivers\K\src\rtc.c
+.\rtc.o: ..\..\Libraries\drivers\K\inc\rtc.h
+.\rtc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\rtc.o: ..\..\Libraries\drivers\K\inc\common.h
+.\rtc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\rtc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\rtc.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+.\rtc.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\rtc.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\rtc.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\rtc.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\rtc.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h

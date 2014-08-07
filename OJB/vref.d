@@ -1,0 +1,12 @@
+vref.o: ..\..\Libraries\drivers\K\src\vref.c
+vref.o: ..\..\Libraries\drivers\K\inc\vref.h
+vref.o: d:\Keil\ARM\RV31\Inc\stdint.h
+vref.o: ..\..\Libraries\drivers\K\inc\common.h
+vref.o: d:\Keil\ARM\RV31\Inc\stdbool.h
+vref.o: d:\Keil\ARM\RV31\Inc\stddef.h
+vref.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+vref.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+vref.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+vref.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+vref.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+vref.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h

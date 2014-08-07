@@ -1,0 +1,290 @@
+Dependencies for Project 'model', Target 'Target 1': (DO NOT MODIFY !)
+F (..\..\Libraries\startup\DeviceSupport\system_MK60D10.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\system_mk60d10.o --omf_browse .\system_mk60d10.crf --depend .\system_mk60d10.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\startup\DeviceSupport\MDK-ARM\startup_MK60D10.s)(0x539AB5EA)(--cpu Cortex-M4 -g --apcs=interwork -I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis--list .\startup_mk60d10.lst --xref -o .\startup_mk60d10.o --depend .\startup_mk60d10.d)
+F (..\USER\main.c)(0x53E2425C)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+I (..\..\Libraries\drivers\K\inc\uart.h)(0x539AB5EA)
+I (..\..\Libraries\drivers\K\inc\adc.h)(0x53BD1CD3)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\..\Libraries\drivers\K\src\adc.c)(0x53BD1055)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (..\..\Libraries\drivers\K\inc\adc.h)(0x53BD1CD3)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\can.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\can.o --omf_browse .\can.crf --depend .\can.d)
+I (..\..\Libraries\drivers\K\inc\can.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+F (..\..\Libraries\drivers\K\src\common.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\common.o --omf_browse .\common.crf --depend .\common.d)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\systick.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\cpuidy.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\cpuidy.o --omf_browse .\cpuidy.crf --depend .\cpuidy.d)
+I (..\..\Libraries\drivers\K\inc\cpuidy.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\dac.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (..\..\Libraries\drivers\K\inc\dac.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\dma.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\dma.o --omf_browse .\dma.crf --depend .\dma.d)
+I (..\..\Libraries\drivers\K\inc\dma.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\enet.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\enet.o --omf_browse .\enet.crf --depend .\enet.d)
+I (..\..\Libraries\drivers\K\inc\enet.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+F (..\..\Libraries\drivers\K\src\flexbus.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\flexbus.o --omf_browse .\flexbus.crf --depend .\flexbus.d)
+I (..\..\Libraries\drivers\K\inc\flexbus.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\ftm.c)(0x53BE5E94)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\ftm.o --omf_browse .\ftm.crf --depend .\ftm.d)
+I (..\..\Libraries\drivers\K\inc\ftm.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\..\Libraries\drivers\K\src\gpio.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\i2c.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (..\..\Libraries\drivers\K\inc\i2c.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\lptmr.c)(0x53BE98D1)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\lptmr.o --omf_browse .\lptmr.crf --depend .\lptmr.d)
+I (..\..\Libraries\drivers\K\inc\lptmr.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\pit.c)(0x53BCACF0)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\pit.o --omf_browse .\pit.crf --depend .\pit.d)
+I (..\..\Libraries\drivers\K\inc\pit.h)(0x53BCA431)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\rtc.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+I (..\..\Libraries\drivers\K\inc\rtc.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\sd.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\sd.o --omf_browse .\sd.crf --depend .\sd.d)
+I (..\..\Libraries\drivers\K\inc\sd.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+F (..\..\Libraries\drivers\K\src\spi.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
+I (..\..\Libraries\drivers\K\inc\spi.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\systick.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (..\..\Libraries\drivers\K\inc\systick.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\tsi.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\tsi.o --omf_browse .\tsi.crf --depend .\tsi.d)
+I (..\..\Libraries\drivers\K\inc\tsi.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+F (..\..\Libraries\drivers\K\src\uart.c)(0x53BAAB80)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (..\..\Libraries\drivers\K\inc\uart.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\gpio.h)(0x53BAD3D4)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (..\..\Libraries\drivers\K\src\vref.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\vref.o --omf_browse .\vref.crf --depend .\vref.d)
+I (..\..\Libraries\drivers\K\inc\vref.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)
+F (..\..\Libraries\drivers\K\src\wdog.c)(0x539AB5EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\K\src -I..\..\Libraries\drivers\K\inc -I..\..\Libraries\startup -I..\..\Libraries\utilities -I..\USER -I..\..\Libraries\devices\src -I..\..\Libraries\devices\inc -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\CoreSupport --c99-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I D:\Keil_v5\ARM\Inc\Freescale\Kinetis-DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG -o .\wdog.o --omf_browse .\wdog.crf --depend .\wdog.d)
+I (..\..\Libraries\drivers\K\inc\wdog.h)(0x539AB5EA)
+I (..\..\Libraries\drivers\K\inc\common.h)(0x539AB5EA)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDD27E)
+I (..\..\Libraries\startup\DeviceSupport\MK60D10.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmInstr.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cmFunc.h)(0x539AB5EA)
+I (..\..\Libraries\startup\CoreSupport\core_cm4_simd.h)(0x539AB5EA)
+I (..\..\Libraries\startup\DeviceSupport\system_MK60D10.h)(0x539AB5EA)

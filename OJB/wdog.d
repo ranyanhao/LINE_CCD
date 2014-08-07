@@ -1,0 +1,12 @@
+wdog.o: ..\..\Libraries\drivers\K\src\wdog.c
+wdog.o: ..\..\Libraries\drivers\K\inc\wdog.h
+wdog.o: ..\..\Libraries\drivers\K\inc\common.h
+wdog.o: d:\Keil\ARM\RV31\Inc\stdint.h
+wdog.o: d:\Keil\ARM\RV31\Inc\stdbool.h
+wdog.o: d:\Keil\ARM\RV31\Inc\stddef.h
+wdog.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+wdog.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+wdog.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+wdog.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+wdog.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+wdog.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h

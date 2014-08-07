@@ -1,0 +1,13 @@
+tsi.o: ..\..\Libraries\drivers\K\src\tsi.c
+tsi.o: ..\..\Libraries\drivers\K\inc\tsi.h
+tsi.o: d:\Keil\ARM\RV31\Inc\stdint.h
+tsi.o: ..\..\Libraries\drivers\K\inc\common.h
+tsi.o: d:\Keil\ARM\RV31\Inc\stdbool.h
+tsi.o: d:\Keil\ARM\RV31\Inc\stddef.h
+tsi.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+tsi.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+tsi.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+tsi.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+tsi.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+tsi.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h
+tsi.o: ..\..\Libraries\drivers\K\inc\gpio.h

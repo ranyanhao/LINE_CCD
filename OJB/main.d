@@ -1,0 +1,11 @@
+main.o: ..\USER\main.c
+main.o: ..\..\Libraries\drivers\K\inc\common.h
+main.o: d:\Keil\ARM\RV31\Inc\stdint.h
+main.o: d:\Keil\ARM\RV31\Inc\stdbool.h
+main.o: d:\Keil\ARM\RV31\Inc\stddef.h
+main.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+main.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+main.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+main.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+main.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+main.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h

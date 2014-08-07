@@ -1,0 +1,12 @@
+gpio.o: ..\..\Libraries\drivers\K\src\gpio.c
+gpio.o: ..\..\Libraries\drivers\K\inc\gpio.h
+gpio.o: ..\..\Libraries\drivers\K\inc\common.h
+gpio.o: d:\Keil\ARM\RV31\Inc\stdint.h
+gpio.o: d:\Keil\ARM\RV31\Inc\stdbool.h
+gpio.o: d:\Keil\ARM\RV31\Inc\stddef.h
+gpio.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+gpio.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+gpio.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+gpio.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+gpio.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+gpio.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h

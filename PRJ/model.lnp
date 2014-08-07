@@ -1,0 +1,28 @@
+--cpu Cortex-M4
+".\system_mk60d10.o"
+".\startup_mk60d10.o"
+".\main.o"
+".\adc.o"
+".\can.o"
+".\common.o"
+".\cpuidy.o"
+".\dac.o"
+".\dma.o"
+".\enet.o"
+".\flexbus.o"
+".\ftm.o"
+".\gpio.o"
+".\i2c.o"
+".\lptmr.o"
+".\pit.o"
+".\rtc.o"
+".\sd.o"
+".\spi.o"
+".\systick.o"
+".\tsi.o"
+".\uart.o"
+".\vref.o"
+".\wdog.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x1FFF0000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\model.map" -o .\model.axf

@@ -1,0 +1,41 @@
+*** Creating Trace Output File 'model.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"system_mk60d10.o"'
+### List of Objects: adding '".\startup_mk60d10.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"can.o"'
+### List of Objects: adding '"common.o"'
+### List of Objects: adding '"cpuidy.o"'
+### List of Objects: adding '"dac.o"'
+### List of Objects: adding '"dma.o"'
+### List of Objects: adding '"enet.o"'
+### List of Objects: adding '"flexbus.o"'
+### List of Objects: adding '"ftm.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"lptmr.o"'
+### List of Objects: adding '"pit.o"'
+### List of Objects: adding '"rtc.o"'
+### List of Objects: adding '"sd.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '"systick.o"'
+### List of Objects: adding '"tsi.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"vref.o"'
+### List of Objects: adding '"wdog.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4 "system_mk60d10.o" ".\startup_mk60d10.o" "main.o" "adc.o" "can.o" "common.o" "cpuidy.o" "dac.o" "dma.o" "enet.o" "flexbus.o" "ftm.o" "gpio.o" "i2c.o" "lptmr.o" "pit.o" "rtc.o" "sd.o" "spi.o" "systick.o" "tsi.o" "uart.o" "vref.o" "wdog.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x1FFF0000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\model.map" -o model.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'model.axf'
+### ADS-LD Command File: 'model.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'model.lnp', Handle=0x00001464
+### Writing '.lnp' file
+### ADS-LD Command file 'model.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,1153 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+I:\日常练习\江西省汽车赛\练习\CCD\PRJ\model.uvproj
+Project File Date:  07/09/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(33): error: At end of source:  #65: expected a ";"
+compiling adc.c...
+compiling ftm.c...
+compiling lptmr.c...
+compiling pit.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23072 RO-data=1736 RW-data=208 ZI-data=7024  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.170V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23072 RO-data=1736 RW-data=208 ZI-data=7024  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.177V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(25): error:  #109: expression must have (pointer-to-) function type
+..\USER\main.c(34): error:  #147: declaration is incompatible with "uint16_t CCD[128]" (declared at line 9)
+..\USER\main.c(53): error:  #852: expression must be a pointer to a complete object type
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(10): error:  #147: declaration is incompatible with "void CCD(void)" (declared at line 6)
+..\USER\main.c(26): error:  #109: expression must have (pointer-to-) function type
+..\USER\main.c(35): error:  #147: declaration is incompatible with "uint16_t CCD[128]" (declared at line 10)
+..\USER\main.c(54): error:  #852: expression must be a pointer to a complete object type
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(10): error:  #147: declaration is incompatible with "void CCD(void)" (declared at line 6)
+..\USER\main.c(10): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\USER\main.c(26): error:  #109: expression must have (pointer-to-) function type
+..\USER\main.c(35): error:  #147: declaration is incompatible with "uint16_t CCD[128]" (declared at line 10)
+..\USER\main.c(54): error:  #852: expression must be a pointer to a complete object type
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(10): error:  #147: declaration is incompatible with "void CCD(void)" (declared at line 5)
+..\USER\main.c(10): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\USER\main.c(26): error:  #109: expression must have (pointer-to-) function type
+..\USER\main.c(35): error:  #147: declaration is incompatible with "uint16_t CCD[128]" (declared at line 10)
+..\USER\main.c(54): error:  #852: expression must be a pointer to a complete object type
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(29): error:  #852: expression must be a pointer to a complete object type
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23316 RO-data=1736 RW-data=208 ZI-data=7280  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23316 RO-data=1736 RW-data=208 ZI-data=7280  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23316 RO-data=1736 RW-data=208 ZI-data=7280  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23324 RO-data=1736 RW-data=208 ZI-data=7280  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.144V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23092 RO-data=1736 RW-data=208 ZI-data=7280  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.144V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23088 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.157V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23088 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.157V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23052 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23060 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.196V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23056 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.157V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23056 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.177V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23592 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.164V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23596 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.157V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23056 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.164V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.151V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(14): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=23044 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 1 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.190V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(14): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=23044 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 1 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.138V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(14): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=23052 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 1 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.177V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23064 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.183V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23064 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.196V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23048 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.196V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(35): error:  #20: identifier "oxff" is undefined
+..\USER\main.c(36): error:  #20: identifier "oxfe" is undefined
+..\USER\main.c(36): error:  #65: expected a ";"
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(36): warning:  #174-D: expression has no effect
+..\USER\main.c(36): error:  #65: expected a ";"
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23072 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.164V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23080 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.164V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23080 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.151V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23080 RO-data=1736 RW-data=208 ZI-data=7152  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.157V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(13): warning:  #177-D: variable "i" was declared but never referenced
+..\USER\main.c(42): error:  #20: identifier "uint" is undefined
+..\USER\main.c(43): error:  #79: expected a type specifier
+..\USER\main.c(43): error:  #79: expected a type specifier
+..\USER\main.c(43): error:  #79: expected a type specifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\USER\main.c(13): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=23208 RO-data=1736 RW-data=208 ZI-data=7024  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=23204 RO-data=1736 RW-data=208 ZI-data=7024  
+FromELF: creating hex file...
+"model.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\日常练习\\江西省汽车赛\\练习\\CCD\\PRJ\\model.AXF" 
+* JLink Info: Device "MK60DN512XXX10" selected (512 KB flash, 128 KB RAM).
+Set JLink Project File to "I:\日常练习\江西省汽车赛\练习\CCD\PRJ\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.50j, compiled Jun 26 2012 09:19:07
+Firmware: J-Link ARM V8 compiled Jun 19 2012 11:29:30
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: ETB present.
+* JLink Info: CSTF present.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p0, Little endian.
+Found SWD-DP with ID 0x2BA01477
+Unlocking device...
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: MK60DN512xxx10
+VTarget = 3.138V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 0, TMS: 1, TRES: 0, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
