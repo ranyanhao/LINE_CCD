@@ -7,6 +7,9 @@
 #define  CCD_SI(data)    GPIO_WriteBit(HW_GPIOB,2,data);
 #define  CCD_CLK(data)   GPIO_WriteBit(HW_GPIOB,4,data);
 
+
+//test rananhao1
+
 void CCD_Restet(void);
 void CCD(void);
 uint8_t MAX_2(uint8_t a,uint8_t b);
